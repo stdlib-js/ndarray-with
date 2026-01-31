@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@esm/index.mjs';
+import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@v0.1.0-esm/index.mjs';
 ```
 
 #### ndarrayWith( x, indices, value )
@@ -112,7 +112,7 @@ The function accepts the following arguments:
 
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@esm/index.mjs';
+import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@v0.1.0-esm/index.mjs';
 
 var x = zeros( [ 1, 3, 3 ], {
     'dtype': 'float64'
