@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-with/tags). For example,
+
+```javascript
 import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@v0.1.0-esm/index.mjs';
 ```
 
@@ -112,7 +117,7 @@ The function accepts the following arguments:
 
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@v0.1.0-esm/index.mjs';
+import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@esm/index.mjs';
 
 var x = zeros( [ 1, 3, 3 ], {
     'dtype': 'float64'
