@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-with/tags). For example,
+
+```javascript
 import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@v0.1.0-deno/mod.js';
 ```
 
@@ -107,7 +112,7 @@ The function accepts the following arguments:
 ```javascript
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@v0.1.0-deno/mod.js';
+import ndarrayWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-with@deno/mod.js';
 
 var x = zeros( [ 1, 3, 3 ], {
     'dtype': 'float64'
