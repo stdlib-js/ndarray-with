@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,16 +16,22 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { typedndarray } from '@stdlib/types/ndarray';
 
 /**
-* Return a new ndarray with the element at a specified index replaced by a provided value.
+* Returns a new ndarray with the element at a specified index replaced by a provided value.
 *
-* @module @stdlib/ndarray-with
+* @param x - input ndarray
+* @param indices - indices of the element to replace
+* @param value - value to set
+* @returns output ndarray
 *
 * @example
 * var ndarray = require( '@stdlib/ndarray-ctor' );
-* var ndarrayWith = require( '@stdlib/ndarray-with' );
 *
 * var buffer = [ 1, 2, 3, 4 ];
 * var shape = [ 2, 2 ];
@@ -34,7 +40,6 @@
 * var offset = 0;
 *
 * var x = ndarray( 'generic', buffer, shape, strides, offset, order  );
-* // returns <ndarray>
 *
 * var out = ndarrayWith( x, [ 0, 0 ], 5 );
 * // returns <ndarray>
@@ -42,12 +47,9 @@
 * var v = out.get( 0, 0 );
 * // returns 5
 */
-
-// MODULES //
-
-var ndarrayWith = require( './main.js' );
+declare function ndarrayWith<T = unknown, U extends typedndarray<T> = typedndarray<T>>( x: typedndarray<T>, indices: Array<number>, value: T ): U;
 
 
 // EXPORTS //
 
-module.exports = ndarrayWith;
+export = ndarrayWith;
