@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-03)
+## Unreleased (2026-11-20)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`b696736`](https://github.com/stdlib-js/stdlib/commit/b696736186a5c6acce24c49f6b613832941c0cf1) - **fix:** bind generic type parameter to input ndarray in `ndarray/with` [(#12626)](https://github.com/stdlib-js/stdlib/pull/12626) _(by Philipp Burckhardt)_
 -   [`f7a08b6`](https://github.com/stdlib-js/stdlib/commit/f7a08b6ce746cb67f028eabec46455e0642e3758) - **docs:** align `package.json` descriptions with imperative-mood convention [(#12431)](https://github.com/stdlib-js/stdlib/pull/12431) _(by Philipp Burckhardt)_
 -   [`5aadc76`](https://github.com/stdlib-js/stdlib/commit/5aadc76d03d8e3c511de2f14131be73dfe118af9) - **bench:** refactor to use string interpolation in `ndarray` [(#11445)](https://github.com/stdlib-js/stdlib/pull/11445) _(by Karan Anand)_
